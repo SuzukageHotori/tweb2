@@ -1,0 +1,26 @@
+﻿{% extends "layout/layout.html" %}
+{% load staticfiles %}
+
+{%block title%}
+{{ title }}
+{%endblock%}
+
+
+{%block content%}
+<div class="cl bdWhite" style="height: 700px;">
+    <h1>will be soon !</h1>
+    <img src="{% static 'img/timg.jpg' %}"/>
+</div>
+{%endblock%}
+
+{%block script%}
+<script>
+    $(document).ready(function() {
+        $("#homeButton").addClass("active");
+    });
+</script>
+{%endblock%}
+
+{%block style%}
+<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}" />
+{%endblock%}

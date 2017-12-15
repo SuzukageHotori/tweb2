@@ -1,0 +1,101 @@
+@font-face {
+    font-family: '8bit';
+    src: url('../font/8bitoperator.eot');
+    src: url('../font/8bitoperator.eot') format('embedded-opentype'),
+         url('../font/8bitoperator.woff2') format('woff2'),
+         url('../font/8bitoperator.woff') format('woff'),
+         url('../font/8bitoperator.ttf') format('truetype'),
+         url('../font/8bitoperator.svg#8bitoperato') format('svg');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"8bit","microsoft yahei";
+}
+
+a{
+    text-decoration: none;
+}
+
+.bgBlack{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.bgBlue{
+	background-color: #0000FF;
+}
+.bdWhite{
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+}
+.bdGreen{
+	border: 2px solid #00ff00;
+	box-sizing: border-box;
+}
+.bdRed{
+	border: 2px solid #FF0000;
+	box-sizing: border-box;
+}
+.bdBlue{
+	border: 2px solid #0000FF;
+	box-sizing: border-box;
+}
+.content {
+    height: auto;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.content .title {
+    height: 60px;
+    margin: -2px 0 0 -2px;
+    width: 1000px;
+}
+
+.content .title .button {
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    height: 56px;
+    line-height: 58px;
+    text-align: center;
+    width: 120px;
+    color: #ffffff
+}
+
+.content .title .button.active { background: #0000FF; }
+
+.content .cl {
+    height: auto;
+    margin: -2px 0 0 -2px;
+    width: 700px;
+}
+
+.content .cb {
+    height: 120px;
+    margin: -2px 0 0 -2px;
+    width: 1000px;
+}
+
+.content .cb .timer {
+    font-size: 12px;
+    height: 56px;
+    margin-left: 50px;
+    width: 400px;
+    line-height: 56px;
+    text-align: left;
+}
+.content .cb .copyRight {
+    font-size: 12px;
+    height: 56px;
+    margin-left: 50px;
+    width: 800px;
+    line-height: 56px;
+    text-align: left;
+}
+
+.fWhite {
+    color: white;
+}
