@@ -25,7 +25,7 @@ SECRET_KEY = '!!p_ha!k+^9p*i!+%xb&*#q#od5&pa7tv&^=&vk6uo0fajm1$%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.taburiss.com','127.0.0.1',]
+ALLOWED_HOSTS = ['www.taburiss.com',]
 
 
 # Application definition
